@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    list-style: none;
+    font-family: OpenSans;
+}
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.navbar{
+    margin-bottom: 30px;
+}
+.top-navbar{
+    border-bottom: 1px solid #cecccc;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    padding: 5px;
+    margin-bottom: 20px;
+
+}
+.top-navbar-dropdown{
+    margin-left: auto;
+}
+.navbar-link{
+    width: 70%;
+    margin: 0 auto;
+}
+.navbar-link ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 190px;
+  height: 39px;
+}
+/* end of navbar */
+
+.welcome-section{
+    background-image: url(../img/bg_hotel.png);
+    background-repeat: no-repeat;
+    /* height: 60vh; */
+    text-align: center;
+    color: #ffffff;
+        
+}
+.inner-welcome{
+    padding-top: 120px;
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(67, 67, 67, 0.2));
+}
+.welcome-section p{
+    letter-spacing: 4.9px
+}
+.welcome-transcorp{
+    font-size: 52px;
+    letter-spacing: 3px;
+    margin: 20px 0;
+
+}
+.fa-play-circle{
+    font-size: 52px;
+    margin-top: 25px;
+}
+.fa-play-circle:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+/* end of welcome section */
+
+.check-section{
+    width: 60%;
+    height: 150px;
+    margin: 0 auto;
+    background-color:#ffffff;
+    position: relative;
+    top: -80px;
+    z-index: 5px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 5px 10px gray;
+    padding-TOP: 30px;
+    /* padding-bottom: 50px; */
+    
+}
+.check-in{
+    border-right: 1.5px solid #ebebf2;
+}
+.check-availability{
+    width: 264px;
+  height: 150px;
+  background-color: #053b58;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  top: -30px;
+}
+.check-availability p{
+    margin-top: 30px;
+}
+
+.check-availability button{
+    width: 170px;
+  height: 48px;
+  background-color: #ff7200;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+/* end of check section */
+
+.about-us-section{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 300px;
+}
+.about-us-section span{
+    color:#9b9b9b;
+    font-size: 14px;
+    
+}
+.bold-text{
+    font-size: 52px;
+    color: #000;
+    letter-spacing: 3px;
+    font-family: Georgia;
+    margin-bottom: 64px;
+    margin-top: 40px;
+    
+}
+.about-us-section p{
+    color:#9b9b9b
+}
+
+/* end about us section */
+
+.background-img{
+    background-image: url(../img/bar-bg.png);
+    text-align: center;
+}
+.bar-img{
+    width: 60%;
+    position: relative;
+    top: -200px;
+    margin: 0 auto;
+}
+.bar-section p{
+    position: relative;
+    top: -100px;
+    text-decoration: underline;
+    color: #9b9b9b;
+    font-weight: bolder;
+}
+
+/* end of bar section */
+.luxury-section{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #ffffff;
+}
+.luxury-left{
+   padding-left: 100px;
+   width: 40%;
+   height: 100%; 
+}
+.inner-left-luxury span{
+    color: #9b9b9b;
+}
+.luxury-title{
+    font-family: Georgia;
+    font-size: 32;
+    color: #000;
+}
+
+.luxury-card{
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
+    height: 200px;
+    flex-direction: column;
+
+}
+.luxury-card:first-child{
+    background-color: #f5f5f5;
+}
+.card_1{
+    display: flex;
+    margin-bottom: 15px;
+    
+}
+.card_1-img{
+    width: 120px;
+  height: 80px;
+  margin-right: 5px;
+
+}
+.luxury-img{
+    width: 60%;
+}
+/* end of luxury section */
+.testimonial{
+    background-image: url(./images//aboutus_bg.png);
+    width: 100%;
+    object-fit: cover;
+    height: 110vh;
+    position: relative;
+    /* height: 60vh; */
+    position: relative;
+}
+.testiomial-box{
+    width: 63%;
+    height: 80vh;
+    background-color: #fff;
+    box-shadow: #9b9b9b;
+    position: absolute;
+    top: 5%;
+    left: 19.4567%;
+}
+.testiomial-box h2{
+    height: 7vh;
+    padding-top: 60px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 4.9px;
+    color: #9b9b9b;
+}
+.testiomial-box h1{
+  height: 41px;
+  padding-bottom: 30px; 
+  font-family: Georgia;
+  font-size: 36px;
+  letter-spacing: 2.1px;
+  text-align: center;
+  color: #000000;
+}
+.testiomial-box p{
+  margin: auto;
+  width: 70%;
+  height: 30vh; 
+  font-family: Georgia;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 1.46;
+  letter-spacing: 1.4px;
+  text-align: center;
+  color: #000000;
+}
+.photo{
+    width: 10%;
+    margin: auto;
+}
+.photo span{
+  width: 100%;
+  height: 22px;
+  font-family: SourceSansPro;
+  font-size: 17px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #000000;
+  position: absolute;
+  bottom: 5%;
+  left: 0;
+}
