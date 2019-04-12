@@ -85,21 +85,32 @@ img{
     display: flex;
     justify-content: space-between;
     box-shadow: 2px 5px 10px gray;
-    padding-TOP: 30px;
-    /* padding-bottom: 50px; */
-    
+    /* padding-TOP: 30px;
+    padding-bottom: 50px;
+     */
 }
 .check-in{
     border-right: 1.5px solid #ebebf2;
+    width: 25%;
+    padding-left: 15px;
+}
+.check-in p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #9b9b9b;
+}
+.check-in span{
+    font-size: 42px;
+    letter-spacing: 2px;
 }
 .check-availability{
-    width: 264px;
+    width: 25%;
   height: 150px;
   background-color: #053b58;
   color: #ffffff;
   text-align: center;
   position: relative;
-  top: -30px;
+  /* top: -30px; */
 }
 .check-availability p{
     margin-top: 30px;
