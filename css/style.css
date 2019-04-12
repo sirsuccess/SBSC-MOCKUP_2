@@ -323,7 +323,11 @@ background-color: #ffffff;
 .continue{
     margin-top: 20px;
 }
-
+.fa-arrow-right{
+    margin-left: 30px;
+    font-size: 18px;
+}
+ /* end of design card section */
 
 
 
