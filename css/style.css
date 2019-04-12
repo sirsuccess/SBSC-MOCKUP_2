@@ -345,8 +345,52 @@ background-color: #ffffff;
     background-color: #ffffff;
     text-align: left;
 }
-
-
+.inner-contact{
+    margin: 6em 3em;
+}
+.discover{
+    color: #9b9b9b;
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.interior{
+    font-family: Georgia;
+    font-size: 36px;
+    letter-spacing: 2.1px;
+    color: #000000;
+    margin-bottom: 2em;
+}
+.state{
+    color: #d8d8d8;
+    font-size: 24px;
+    margin-bottom: 1em;
+}
+.state span{
+    color: #000000;
+}
+.address{
+    font-family: SourceSansPro;
+  font-size: 14px;
+  line-height: 2.14;
+  letter-spacing: 0.8px;
+  color: #9b9b9b;
+  margin-bottom: 1em;
+}
+.call{
+    font-family: SourceSansPro;
+  font-size: 14px;
+  line-height: 2.14;
+  letter-spacing: 0.8px;
+  color: #9b9b9b;
+}
+.phone{
+    font-family: Georgia;
+  font-size: 36px;
+  letter-spacing: 2.1px;
+  color: #000000;
+}
  /* end of map section */
 .footer{
     width: 100%;
