@@ -29,6 +29,7 @@ img{
 .navbar-link{
     width: 70%;
     margin: 0 auto;
+    font-size: 14px;
 }
 .navbar-link ul{
     display: flex;
@@ -36,8 +37,8 @@ img{
     justify-content: space-between;
 }
 .logo{
-    width: 190px;
-  height: 39px;
+    width: 180px;
+  height: 30px;
 }
 /* end of navbar */
 
@@ -220,21 +221,16 @@ background-color: #ffffff;
 /* end of luxury section */
 .testimonial{
     background-image: url(./images//aboutus_bg.png);
-    width: 100%;
-    object-fit: cover;
-    height: 110vh;
-    position: relative;
-    /* height: 60vh; */
-    position: relative;
+    
 }
 .testiomial-box{
     width: 63%;
-    height: 80vh;
+    height: 85vh;
     background-color: #fff;
     box-shadow: #9b9b9b;
-    position: absolute;
-    top: 5%;
-    left: 19.4567%;
+    margin: 0 auto;
+    margin-top: 100px;
+    
 }
 .testiomial-box h2{
     height: 7vh;
@@ -267,25 +263,24 @@ background-color: #ffffff;
   color: #000000;
 }
 .photo{
-    width: 10%;
-    margin: auto;
+    margin: 20px auto;
+    width: 150px;
+    text-align: center;
+}
+.oval{
+    width: 60px;
+    position: relative;
+    right: -40px;
 }
 .photo span{
-  width: 100%;
-  height: 22px;
   font-family: SourceSansPro;
-  font-size: 17px;
+  font-size: 14px;
   letter-spacing: 1px;
-  text-align: center;
   color: #000000;
-  position: absolute;
-  bottom: 5%;
-  left: 0;
+  
 }
 .dot{
-    z-index: 100;
-    width: 100px;;
-    /* background-color: #ff7200; */
+   
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -294,8 +289,40 @@ background-color: #ffffff;
     color: #ff7200;
     
 }
+/* end of testimonies */
 
+.blog-section{
+    font-size: 36px;
+    letter-spacing: 2px;
+    color: #4a4a4a;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+/* end of blog section */
+.design-card{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.design-card_1{
+    width: 30%;
+    background-color: #ffffff;
 
+}
+.design-card_1 span{
+    color: #9b9b9b;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.design-card_1 p{
+    margin-top: 20px;
+}
+.continue{
+    margin-top: 20px;
+}
 
 
 
