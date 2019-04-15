@@ -6,7 +6,7 @@
     font-family: OpenSans;
     text-decoration: none;
     text-decoration-color: #000;
-    
+    /* default CSS page setting */
 }
 a{ color: #000; }
 a:hover{
@@ -16,11 +16,10 @@ a:hover{
 img{
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
-
-.navbar{
-    margin-bottom: 30px;
+.collapse{
+    margin-bottom: 20px;
 }
 .top-navbar{
     border-bottom: 1px solid #cecccc;
@@ -33,6 +32,9 @@ img{
 }
 .top-navbar-dropdown{
     margin-left: auto;
+}
+.first{
+    display: none;
 }
 .navbar-link{
     width: 70%;
@@ -55,6 +57,7 @@ img{
     width: 180px;
   height: 30px;
 }
+
 /* end of navbar */
 
 .welcome-section{
@@ -62,7 +65,7 @@ img{
     background-repeat: no-repeat;
     text-align: center;
     color: #ffffff;
-        
+    padding-bottom: 12em;
 }
 .inner-welcome{
     padding-top: 120px;
@@ -136,8 +139,8 @@ img{
 }
 
 .check-availability button{
-    width: 170px;
-  height: 48px;
+    width: 12em;
+  height: 3em;
   background-color: #ff7200;
   color: #ffffff;
   margin-top: 20px;
@@ -149,8 +152,8 @@ img{
     text-align: center;
     width: 50%;
     margin: 0 auto;
-    margin-top: 30px;
     margin-bottom: 300px;
+    margin-top: 20px;
 }
 .about-us-section span{
     color:#9b9b9b;
@@ -200,7 +203,7 @@ background-color: #ffffff;
 .luxury-left{
    padding-left: 100px;
    width: 40%;
-   height: 100%;
+   /* height: 100%; */
    text-align: left; 
 }
 .room{
@@ -238,19 +241,19 @@ background-color: #ffffff;
     
 }
 .card_1-img{
-    width: 120px;
+    width: 7em;
   height: 80px;
   margin-right: 5px;
 
 }
 .luxury-img{
     width: 60%;
+    height: 100%;
 }
 /* end of luxury section */
 
 .testiomial-box{
     width: 63%;
-    height: 80vh;
     background-color: #fff;
     box-shadow: #9b9b9b;
     margin: 0 auto;
@@ -260,8 +263,8 @@ background-color: #ffffff;
     
 }
 .testiomial-box h2{
-    height: 7vh;
     padding-top: 60px;
+    margin-bottom: 3em;
     font-family: SourceSansPro;
     font-size: 14px;
     letter-spacing: 4.9px;
@@ -285,12 +288,12 @@ background-color: #ffffff;
 }
 .photo{
     margin: 10px auto;
-    width: 150px;
+    width: 12vw;
+    
 }
 .oval{
-    width: 60px;
-    position: relative;
-    right: -40px;
+    width: 150px;
+    margin-bottom: 30px;
 }
 .photo span{
   font-family: SourceSansPro;
@@ -300,11 +303,10 @@ background-color: #ffffff;
   
 }
 .dot{
-   
     display: flex;
     justify-content: space-between;
-    position: relative;
-    bottom: -29px;
+    margin-top: 20px;
+    padding-bottom: 50px;
     font-size: 11px;
     color: #ff7200;
     
@@ -418,17 +420,17 @@ background-color: #ffffff;
 .footer{
     width: 100%;
     background-color: #211f20;
-    height: 50vh;
+    padding-bottom: 5em;
 }
 .footer-menu{
     display: flex;
+    flex-wrap: wrap;
     width: 80%;
     margin: auto;
     justify-content: space-around;
     align-items: center;
 }
 .footer ul{
-    height: 20vh;
     padding-top: 80px;
     text-align: left;
 }
@@ -436,7 +438,7 @@ background-color: #ffffff;
     list-style: none;
     color:#9b9b9b;
     padding-top: 10px;
-    height: 18px;
+    
     font-family: SourceSansPro;
     font-size: 18px;
     letter-spacing: 0.4px;
@@ -486,9 +488,132 @@ margin-top: 30px;
     padding-top: 20px;
 }
 .socials{
+    display: flex;
    position: absolute;
    right: 0;
 }
 .media{
     margin-right: 1.5rem;
 }
+
+
+/* ==============================================
+            Responsive design
+============================================== */
+
+@media screen and (max-width: 1190px) {
+    /* body {
+      background-color: lightgreen;
+    } */
+    .check-section{
+        width: 80%;
+    }
+    .luxury-section{
+        flex-direction: column-reverse;
+    }
+    .luxury-left{
+        margin-top: 2em;
+        width: 70%;
+        margin-bottom: 2em;
+    }
+    .luxury-img{
+        width: 100%;
+    }
+    .map-section{
+        flex-direction: column-reverse;
+    }
+    .map-img{
+        width: 100%;
+    }
+    .contact-section{
+        width: 100%;
+    }
+    .design-card{
+        width: 95%;
+    }
+    .bar-img{
+        
+        top: -150px;
+       
+    }
+  }
+
+  @media screen and (max-width: 865px) {
+    
+    .check-section{
+        width: 90%;
+    }
+    .navbar-link{
+        width: 90%;
+    }
+    .top-navbar{
+        
+        width: 90%;
+        
+    
+    }
+    .about-us-section{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .bar-img{
+        width: 70%;
+        top: -100px;
+        
+    }
+}
+@media screen and (max-width: 767px) {
+    
+    .check-section{
+        display: none
+    }
+    .first{
+        display: block;
+        
+    }
+    .top-navbar{
+        
+        width: 100%;
+        font-size: 10px;
+    
+    }
+    .second{
+        display: none;
+    }
+    .luxury-left{
+        padding-left: 20px;
+        width: 100%;
+    
+    }
+    .testiomial-box{
+        width: 90%;
+    
+    }
+    .photo{
+        
+        width: 65%;
+        
+    }
+    .bar-img{
+        width: 90%;
+        top: -100px;
+        
+    }
+    .design-card{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        text-align: left;
+    }
+    .design-card_1{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    
+    }
+}
+
+
